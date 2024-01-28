@@ -7,11 +7,10 @@ import ResultComponent from './components/ResultComponent'
 export default class App extends Component {
   render() {
     return (
-      // UnComment the component to evaluate the component 
       <div>
         <HomeComponent/>
-        {/* <QuizComponent/> */}
-        {/* <ResultComponent /> */}
+        <QuizComponent/>
+        <ResultComponent />
       </div>
     )
   }
